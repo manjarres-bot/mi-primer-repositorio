@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>MI SEGUNDA PAGINA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>::ACTIVIDAD #3::</h1>
+        <h2>titulo con h2</h2>
+        <h3>titulo con h3</h3>
+        <h4>titulo con h4</h4>
+        <h5>titulo con h5</h5>
+        <h6>titulo con h6</h6>
+    </header>
+    <hr>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa incidunt animi natus, temporibus minus <br><br><br> beatae asperiores, velit ab accusantium possimus explicabo  enim quos nemo molestiae, labore aliquid. Totam, quis et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum sed, est voluptatem amet, qui perferendis assumenda ex ipsa error placeat voluptas? Dolorem error repellat deserunt excepturi sit temporibus quas.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae quae debitis similique saepe sed, labore dolore ratione consectetur tempore illo, unde non dolor accusantium! Quod adipisci qui aut assumenda!</p>
+    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, eligendi, inventore accusamus consequuntur blanditiis autem perspiciatis cum dignissimos alias ullam delectus aperiam nemo architecto quibusdam sequi nihil temporibus, nostrum perferendis?</blockquote>
+    <hr>
+    <img class="perfil" src="gif 1.gif" alt="">
+     <img class="perfil2" src="gif2.gif" alt="">
+    <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">ir a mi canal de youtube</a>
+    <hr>
+    <h2>SESION 4</h2>
+    <h3>listas ordenadas</h3>
+    <ol>
+        <li>PROGRAMACION</li>
+        <LI>HISTORIA</LI>
+        <LI>CARRERAS</LI>
+        <li>PELICULAS</li>
+    </ol>
+     <h3>listas no ordenadas</h3>
+    <ul>
+        <li>futbol</li>
+        <li>ciclismo</li>
+        <li>tenis</li>
+        <li>basquet</li>
+    </ul>
+
+    <dl>
+        <h4>listas de definicion</h4>
+        <dl>
+            <dt>celular</dt><dd>dispositivo movil</dd>
+            <dt>televisor</dt><dd>dispositivo de hogar</dd>
+            <dt>laptop</dt><dd>dispositivo electronico</dd>
+            <dt>tablet</dt><dd>dispositivo movil</dd>
+        </dl>
+    
+    </dl>
+    <h3>LISTAS ANIDADS</h3>
+    <ol class="anidadas">
+        <li>Windows</li>
+        <ul class="windows">
+            <li>XP</li>
+            <li>7</li>
+            <li>11</li>
+        </ul>
+        <li>Linux</li>
+        <ul class="Linux">
+            <li>Debian</li>
+            <li>Ubuntu</li>
+            <li>Fedora</li>
+        </ul>
+        <li>Arm</li>
+        <ul class="Arm">
+            <li>Ios</li>
+            <li>Android</li>
+            <li>Firefox Os</li>
+            <li>Blackberry Os</li>
+        </ol>
+    </ol>
+    
+    <ol class="anidadas">
+    <h3>tablas en HTML</h3>
+    <h4>tabla simple</h4>
+    <table>
+     <tr>
+            <th>N°</th>
+            <th>IDENTIFICACION</th>
+            <th>NOMBRE</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>41</td>
+            <td>CARLOS</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>1065675818</td>
+            <td>ALBERTO</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>777</td>
+            <td>MANJARRES</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>SESION 5</h2>
+    <h3>FORMULARIOS</h3>
+    <form action="#" method="get" id="formulario1" name="formulario1">
+         <label for="ident">Identificacion: </label> 
+         <input type="number" name="ident" id="ident" value="" requerid>
+         <br>
+         <label for="Nom">Nombre: </label>
+         <input type="text" name="Nom" id="Nom" value="" placeholder="nombre completo">
+         <br>
+         <label for="ema">correo electr&oacute;nico</label>
+         <input type="email" name="ema" id="ema" value="" placeholder="nombre@dominio.com">
+         <br>
+         <label for="">contrase&ntilde;a: </label>
+         <input type="password" name="clave" id="clave" value="" requided minlength="8" maxlength="16">
+         <hr>
+         <span>Genero</span>
+         <br>
+         <div class="genero">
+            <input type="radio" name="gen" id="M">
+            <label for="M">Masculino</label>
+         </div>
+         <div class="genero">
+            <input type="radio" name="gen" id="F">
+            <label for="F"> Femenino</label>            
+         </div>
+         <div class="genero">
+            <input type="radio" name="gen" id="O">
+            <label for="O">Otros</label>
+         </div>
+          <hr>
+         <strong>DEPORTES</strong>
+         <br>
+         <input type="checkbox" name="Futbol" id="Futbol" checked>
+         <label for="Futbol">Futbol</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="checkbox" name="Beisbol" id="Beisbol" disabled>
+         <label for="">Beisbol</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="checkbox" name="Tenis" id="Tenis">
+         <label for="">Tenis</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="checkbox" name="Voleibol" id="Voliebol">
+         <label for="">Voliebol</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <hr>
+         <marquee behavior="" direction="">'''C O M E N T A R I O S'''</marquee>
+         <textarea name="comt" id="comt" rows="5"></textarea>
+         <hr>
+         <fieldset>
+            <legend>Lista Desplegada</legend>
+            <div>
+                <label for="ciudad">Donde vives: </label>
+                <select name="ciudad" id="ciudad">
+                    <option value="">seleccione una </option>
+                    <option value="1">Valledupar</option>
+                    <option value="2">La paz</option>
+                    <option value="3" disabled>Codazzi</option>
+                    <option value="4">Pueblo bello</option>
+                </select>
+            </div>
+            <div>
+                <label for="">En que departamento vives</label>
+                <select name="" id="">
+                    <optgroup label="Region caribe">
+                        <option value="1">Cesar</option>
+                        <option value="2">Atlantico</option>
+                        <option value="3">Guajira</option>
+                    </optgroup>
+                    <optgroup label="Region andina">
+                        <option value="4">Nariño</option>
+                        <option value="5">Cauca</option>
+                        <option value="6">Antioquia</option>
+                    </optgroup>
+                </select>
+            </div>
+         </fieldset>
+         
+         
+    
+         
+
+
+
+    </form>
+
+</body>
+</html>

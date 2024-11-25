@@ -1,0 +1,63 @@
+/*ESTILOS PARA EL CUERPO*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: olivedrab;
+}
+
+header{
+    background-color:blue;
+}
+
+P{
+    font-weight: bold;
+}
+
+#p1{
+    background-color: yellow;
+}
+
+.perfil{
+    width: 35%;
+    border: 5px solid orange;
+    border-radius: 60%;
+}
+.perfil2{
+width: 50%;
+border: 5px solid orange;
+border-radius: 60%;
+}
+
+/*ESTILOS DE LA SESION 4*/
+ul {
+    list-style-type:none;
+}
+ol {
+    list-style-type: lower-greek;
+    font-style: italic;
+}
+.anidadas{
+    list-style-type: decimal;
+}
+.windows{
+     list-style-type: circle;
+}
+.Linux{
+    list-style-type: lower-roman;
+}
+.Arm{
+    list-style-type: lower-alpha;
+}
+table{
+    padding: 50px;
+} td, th {
+    border: 5px solid yellow;
+    background-color: blue;
+    color: beige;
+}
+
+/*ESTILOS DE LA SESION 5*/
+.genero{
+    display: inline;
+    margin: auto 10px;
+}
